@@ -1,0 +1,524 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #f7f9ff;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: transparent;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo img {
+  height: 32px;
+}
+
+.brand-name {
+  color: #ee6c4d;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f97316;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 5%;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  margin-bottom: 24px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: #f97316;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 450px;
+}
+
+/* Image */
+.hero-image {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*2nd*/
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #f7f9ff;
+  color: #222;
+}
+
+/* Section Header */
+.product-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.product-header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #f97316;
+}
+
+.product-header p {
+  color: #555;
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.link-text {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+/* Product Grid */
+.product-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  padding: 0 10px;
+}
+
+/* Product Card */
+.product-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.product-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.product-card .price {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-card button {
+  background-color: #f97316;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #e4570c;
+}
+
+
+/*3rd*/
+
+body {
+  margin: 50px 50px;
+  
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f4fd;
+}
+
+.flower-section {
+  padding: 40px 20px;
+  width: 1140;
+}
+
+.flower-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Image + Badge */
+.flower-image {
+  position: relative;
+  flex: 1 1 400px;
+  min-width: 300px;
+}
+
+.flower-image img:first-child {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  background: linear-gradient(to bottom, rgba(255, 102, 0, 0.3), rgba(0,0,0,0.2));
+}
+
+.badge {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 100px;
+  z-index: 1;
+}
+
+/* Text Content */
+.flower-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.flower-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.flower-content ul {
+  padding-left: 20px;
+}
+
+.flower-content li {
+  margin-bottom: 15px;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+/* 4th */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.subscribe-section {
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.subscribe-overlay {
+  max-width: 700px;
+  margin: 0 auto;
+  /* background-color: rgba(0, 0, 0, 0.4); Optional dimming */
+  padding: 40px 20px;
+  border-radius: 8px;
+}
+
+.subscribe-overlay h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.subscribe-form {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.subscribe-form input[type="email"] {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.subscribe-form button {
+  background-color: #f15b2a;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #d44c1f;
+}
+
+
+/*5th  */
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #f7f9ff;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #f7f9ff;
+  padding: 40px 20px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Logo and description */
+.footer-logo {
+  flex: 1 1 250px;
+}
+
+.footer-logo img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  color: #666;
+  font-size: 0.95rem;
+  max-width: 250px;
+}
+
+/* Links */
+.footer-links {
+  flex: 2 1 400px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links a {
+  display: block;
+  text-decoration: none;
+  color: #444;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f97316;
+}
+
+/* Social icons */
+.footer-social {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.footer-social a img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.footer-social a:hover img {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 24px 16px;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+}
+
+/*2nd*/
+@media (max-width: 640px) {
+  .product-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .product-header p {
+    font-size: 0.95rem;
+  }
+
+  .product-grid {
+    grid-template-columns: 2fr;
+  }
+}
+
+/* 3rd */
+
+/* Responsive Design for iPhone 14/15 Pro */
+@media (max-width: 768px) {
+  .flower-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .flower-content h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .flower-content ul {
+    padding-left: 0;
+  }
+
+  .flower-content li {
+    font-size: 15px;
+  }
+
+  .badge {
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* 4th */
+/* Responsive for iPhone 14 / 15 Pro and small screens */
+@media (max-width: 768px) {
+  .subscribe-overlay h2 {
+    font-size: 24px;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+  }
+
+  .subscribe-form input,
+  .subscribe-form button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+  }
+
+  .subscribe-form button {
+    border-top: 1px solid #ccc;
+  }
+}
+
+/* 5th */
