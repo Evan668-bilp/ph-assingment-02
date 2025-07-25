@@ -294,7 +294,7 @@ body {
 .subscribe-overlay {
   max-width: 700px;
   margin: 0 auto;
-  /* background-color: rgba(0, 0, 0, 0.4); Optional dimming */
+  
   padding: 40px 20px;
   border-radius: 8px;
 }
