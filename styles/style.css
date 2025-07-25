@@ -456,7 +456,7 @@ body {
 }
 
 /*2nd*/
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .product-header h2 {
     font-size: 1.5rem;
   }
@@ -493,11 +493,9 @@ body {
     font-size: 15px;
   }
 
-  .badge {
-    top: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+   .badge {
+    display: none;
+  
 }
 
 /* 4th */
@@ -523,7 +521,7 @@ body {
   }
 }
 
-/* 5th */
+/* 5th*/
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
@@ -538,4 +536,13 @@ body {
   .footer-social {
     margin-top: 20px;
   }
-}
+} 
+
+
+
+
+
+
+
+
+
